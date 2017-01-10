@@ -1,4 +1,3 @@
-
 # Mehaz: 
 
 # [2] http://plot.ly/api/
@@ -14,8 +13,8 @@
 # Currently your API Key is: 9or5cuw4wi
 # Now we can start the actual work:
 library(plotly)
-username="muplot" # My plotly username
-api_key="9or5cuw4wi" # My api key generated at http://plot.ly/api/
+username="username" # My plotly username
+api_key="key" # My api key generated at http://plot.ly/api/
 p <- plotly(username=username, key=api_key)
 ##############################################
 rankdata <- read.table("rank_data.txt")
